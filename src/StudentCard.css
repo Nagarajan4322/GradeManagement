@@ -1,0 +1,65 @@
+/* StudentCard.css */
+
+/* Add custom styles for the container if needed */
+.container {
+    margin-top: 20px;
+  }
+  
+  /* Style for individual cards */
+  .card {
+    height: 400px;
+    width: 100%;
+  }
+  
+  /* Add background image and styling */
+  .card-body {
+    /* background-image: url('https://cdn.vectorstock.com/i/1000x1000/16/83/gold-light-blur-glitter-or-sparkling-defocused-vector-34951683.webp'); */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* Style for card images */
+  .card-img-top {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for card title and text */
+  .card-title,
+  .card-text {
+    margin-bottom: 0;
+  }
+  .scale-on-hover:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+  .thead-custom {
+    background-color: #189af0; /* Change this color to your preferred background color */
+    color: white; /* Text color for the table heading */
+  }
+  .table-row:hover {
+    background-color: #c8d6e5;
+    transform: scale(1.05);
+    transition: background-color 0.3s, transform 0.3s;
+  }
+    
+  
+  /* Style for the button */
+  .btn-outline-light {
+    border-color: white;
+    color: white;
+  }
+  
+  /* Responsive styles for the table */
+  .table {
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }

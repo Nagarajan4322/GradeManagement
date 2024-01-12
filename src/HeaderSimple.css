@@ -1,0 +1,91 @@
+/* Header styles */
+
+
+
+
+body,
+.table {
+  font-family: 'Roboto', sans-serif; /* Change 'Roboto' to your desired modern font */
+}
+
+.card-body {
+  font-family: 'Roboto', sans-serif; /* Change 'Roboto' to your desired modern font */
+  /* Other styles for card body */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header {
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  /* Inner container styles */
+  .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Logo styles */
+  .logo {
+    font-size: 2px;
+    font-weight: bold;
+  }
+  img{
+   height: 90px;
+   width: 90px;
+  }
+  
+  /* Links container styles */
+  .links {
+    display: flex;
+  }
+  
+  /* Link styles */
+  .link {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Active link styles */
+  .link.active {
+    color: blue;
+  }
+  
+  /* Burger icon styles */
+  .burger {
+    display: none; /* Hide burger icon by default */
+  }
+  
+  /* Media query to show burger icon */
+  @media (max-width: 768px) {
+    .links {
+      display: none; /* Hide links on smaller screens */
+    }
+  
+    .burger {
+      display: block; /* Show burger icon on smaller screens */
+    }
+  }
+  
